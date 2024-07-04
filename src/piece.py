@@ -2,7 +2,7 @@ import os
 
 class Piece:
 
-    def __init__(self, name, color, value, texture, texture_rect=None) -> None:
+    def __init__(self, name, color, value, texture=None, texture_rect=None) -> None:
         self.name = name
         self.color = color
         value_sign = 1 if color == 'white' else -1
